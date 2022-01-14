@@ -8,22 +8,80 @@
 // }
 //********** End Footer *********************//
 //********** Footer__title *********************//
-.suptitle {
-  font-size: 18px;
-  line-height: 1.14;
-  margin-top: 117px;
-  font-family: 'Titan One', cursive;
-  color: var(--secondary-text-light-color);
-  text-transform: uppercase;
+@media screen and (max-width: 767px) {
+  .footer__title {
+    width: 234px;
+  }
+
+  .title {
+    font-size: 34px;
+    line-height: 1.14;
+    margin-top: 17px;
+    letter-spacing: 0.04em;
+    font-family: 'Titan One', cursive;
+    color: var(--accent-color);
+    text-transform: uppercase;
+  }
+
+  .suptitle {
+    font-size: 18px;
+    line-height: 1.14;
+    margin-top: 117px;
+    font-family: 'Titan One', cursive;
+    color: var(--secondary-text-light-color);
+    text-transform: uppercase;
+  }
 }
-.title {
-  font-size: 34px;
-  line-height: 1.14;
-  margin-top: 17px;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-  text-transform: uppercase;
+
+@media screen and (min-width: 768px) {
+  .footer__title {
+    width: 340px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 1.14;
+    margin-top: 17px;
+    letter-spacing: 0.06em;
+    font-family: 'Titan One', cursive;
+    color: var(--accent-color);
+    text-transform: uppercase;
+  }
+  .suptitle {
+    font-size: 26px;
+    line-height: 1.14;
+    margin-top: 117px;
+    letter-spacing: 0.04em;
+    font-family: 'Titan One', cursive;
+    color: var(--secondary-text-light-color);
+    text-transform: uppercase;
+  }
 }
+
+@media screen and (min-width: 1200px) {
+  .footer__title {
+    width: 484px;
+  }
+  .title {
+    font-size: 58px;
+    line-height: 1.14;
+    margin-top: 17px;
+    letter-spacing: 0.06em;
+    font-family: 'Titan One', cursive;
+    color: var(--accent-color);
+    text-transform: uppercase;
+  }
+  .suptitle {
+    font-size: 30px;
+    line-height: 1.14;
+    margin-top: 117px;
+    letter-spacing: 0.04em;
+    font-family: 'Titan One', cursive;
+    color: var(--secondary-text-light-color);
+    text-transform: uppercase;
+  }
+}
+
 //********** End Footer__title *****************//
 
 //********** Networks ***********************//
