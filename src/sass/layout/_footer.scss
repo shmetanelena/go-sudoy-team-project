@@ -1,0 +1,93 @@
+//********** Footer *************************//
+// .footer {
+//   width: 1200px;
+//   margin: 0 auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   /* outline: 3px solid springgreen; */
+// }
+//********** End Footer *********************//
+//********** Footer__title *********************//
+.suptitle {
+  font-size: 18px;
+  line-height: 1.14;
+  margin-top: 117px;
+  font-family: 'Titan One', cursive;
+  color: var(--secondary-text-light-color);
+  text-transform: uppercase;
+}
+.title {
+  font-size: 34px;
+  line-height: 1.14;
+  margin-top: 17px;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+//********** End Footer__title *****************//
+
+//********** Networks ***********************//
+.networks {
+  display: flex;
+  justify-content: end;
+  margin-top: 46px;
+}
+.networks__item {
+  margin-left: 28px;
+}
+.networks__link {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  fill: white;
+  background-color: var(--svg-color);
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--svg-hover-color);
+    fill: white;
+  }
+}
+
+.networks__icon {
+  width: 19px;
+  height: 19px;
+  /* margin: 12px; */
+}
+
+//********** END Networks ***********************//
+
+//********** Contact-free ***************************//
+.contact-free {
+  display: flex;
+  justify-content: end;
+  margin-top: 46px;
+}
+.contact-free__text {
+  font-weight: bold;
+  color: var(--main-text-dark-color);
+  //   font-family: 'DM Sans', sans-serif;
+}
+
+.contact-free__tel {
+  color: var(--svg-hover-color);
+}
+//********** END Contact-free ***********************//
+
+//********** Company *******************************//
+.company {
+  margin-top: 65px;
+  text-align: center;
+}
+.company__text {
+  font-size: 14px;
+  line-height: 1.52;
+  font-weight: 700;
+  color: #907e82;
+}
+//********** END Company ***************************//
