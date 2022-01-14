@@ -31,6 +31,20 @@
     color: var(--secondary-text-light-color);
     text-transform: uppercase;
   }
+  .company {
+    margin-top: 65px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company__text {
+    font-size: 14px;
+    line-height: 1.52;
+    font-weight: 700;
+    color: #907e82;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -55,6 +69,21 @@
     font-family: 'Titan One', cursive;
     color: var(--secondary-text-light-color);
     text-transform: uppercase;
+  }
+  .company {
+    margin-top: 65px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company__text {
+    font-size: 14px;
+    line-height: 1.52;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #907e82;
+    text-align: center;
   }
 }
 
@@ -138,14 +167,5 @@
 //********** END Contact-free ***********************//
 
 //********** Company *******************************//
-.company {
-  margin-top: 65px;
-  text-align: center;
-}
-.company__text {
-  font-size: 14px;
-  line-height: 1.52;
-  font-weight: 700;
-  color: #907e82;
-}
+
 //********** END Company ***************************//
