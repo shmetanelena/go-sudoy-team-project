@@ -45,6 +45,10 @@
     color: #907e82;
     text-align: center;
   }
+  .contact-free__text {
+    font-size: 12px;
+    line-height: 1.83;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -85,6 +89,10 @@
     color: #907e82;
     text-align: center;
   }
+  .contact-free__text {
+    font-size: 14px;
+    line-height: 1.83;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -108,6 +116,10 @@
     font-family: 'Titan One', cursive;
     color: var(--secondary-text-light-color);
     text-transform: uppercase;
+  }
+  .contact-free__text {
+    font-size: 16px;
+    line-height: 1.83;
   }
 }
 
