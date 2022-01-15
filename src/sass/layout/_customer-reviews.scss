@@ -6,20 +6,33 @@
   }
   &__wrap {
     background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 71px 0 20px;
+    margin-bottom: 52px;
   }
   &__text {
-    margin: 0 0 52px 0;
-    padding: 43px 62px 26px;
-    font-size: 12px;
-    line-height: 255%;
+    width: 60%;
     text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.5833333333;
+    letter-spacing: 0.04em;
     color: #000000;
+    background-image: repeating-linear-gradient(
+      hsla(0, 0%, 100%, 0),
+      hsla(0, 0%, 100%, 0) 29px,
+      #e1e1e1 0,
+      #e1e1e1 30px
+    );
   }
   &__subtitle {
     margin-bottom: 30px;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 186%;
+    line-height: 1.86;
     text-align: center;
+    color: #000000;
   }
   &__nav {
     display: flex;
