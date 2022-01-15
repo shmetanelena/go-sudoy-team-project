@@ -25,6 +25,10 @@
       #e1e1e1 0,
       #e1e1e1 30px
     );
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 2.16;
+    }
   }
   &__subtitle {
     margin-bottom: 30px;
