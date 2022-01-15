@@ -15,21 +15,14 @@
 
   .title {
     font-size: 34px;
-    line-height: 1.14;
     margin-top: 17px;
     letter-spacing: 0.04em;
-    font-family: 'Titan One', cursive;
-    color: var(--accent-color);
-    text-transform: uppercase;
+    text-align: start;
   }
 
-  .suptitle {
-    font-size: 18px;
-    line-height: 1.14;
+  .pre-title {
     margin-top: 117px;
-    font-family: 'Titan One', cursive;
-    color: var(--secondary-text-light-color);
-    text-transform: uppercase;
+    text-align: start;
   }
   .social-networks {
     margin-top: 46px;
@@ -71,22 +64,13 @@
   }
 
   .title {
-    font-size: 48px;
-    line-height: 1.14;
     margin-top: 17px;
     letter-spacing: 0.06em;
-    font-family: 'Titan One', cursive;
-    color: var(--accent-color);
-    text-transform: uppercase;
+    text-align: start;
   }
-  .suptitle {
-    font-size: 26px;
-    line-height: 1.14;
+  .pre-title {
     margin-top: 117px;
-    letter-spacing: 0.04em;
-    font-family: 'Titan One', cursive;
-    color: var(--secondary-text-light-color);
-    text-transform: uppercase;
+    text-align: start;
   }
   .social-networks {
     display: inline-flex;
@@ -137,7 +121,7 @@
     color: var(--accent-color);
     text-transform: uppercase;
   }
-  .suptitle {
+  .pre-title {
     font-size: 30px;
     line-height: 1.14;
     margin-top: 117px;
