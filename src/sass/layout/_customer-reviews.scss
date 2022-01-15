@@ -45,7 +45,7 @@
     font-weight: 500;
     line-height: 2.55;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: var(--main-text-dark-color);
     background-image: repeating-linear-gradient(
       hsla(0, 0%, 100%, 0),
       hsla(0, 0%, 100%, 0) 29px,
@@ -89,7 +89,7 @@
     font-size: 14px;
     line-height: 1.86;
     text-align: center;
-    color: #000000;
+    color: var(--main-text-dark-color);
     @media screen and (min-width: 768px) {
       margin-bottom: 35px;
       font-size: 16px;
