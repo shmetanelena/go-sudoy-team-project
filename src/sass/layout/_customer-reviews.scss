@@ -6,7 +6,6 @@
   @media screen and (min-width: 1280px) {
     padding-top: 123px;
   }
-
   &__img {
     margin: 0 auto 29px;
     border-radius: 44px;
@@ -18,7 +17,6 @@
       margin: 0 auto 15px;
     }
   }
-
   &__wrap {
     background-color: #fafafa;
     display: flex;
@@ -110,17 +108,17 @@
     width: 32px;
     height: 4px;
   }
-  &__nav {
-    display: flex;
-    justify-content: center;
-  }
-  &__nav-item:not(:first-child) {
+}
+.reviews-pagination {
+  display: flex;
+  justify-content: center;
+  &__item:not(:first-child) {
     width: 12px;
     height: 12px;
     background-color: #d9d9d9;
     border-radius: 50%;
   }
-  &__nav-item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 18px;
   }
 }
