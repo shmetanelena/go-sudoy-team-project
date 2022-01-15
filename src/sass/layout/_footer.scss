@@ -32,18 +32,17 @@
     text-transform: uppercase;
   }
   .social-networks {
+    margin-top: 46px;
+  }
+  .networks {
+    display: flex;
+    justify-content: end;
+  }
+  .contact-free {
     display: flex;
     justify-content: end;
     margin-top: 46px;
   }
-  // .networks {
-  //   display: flex;
-  // }
-  // .contact-free {
-  //   display: flex;
-  //   justify-content: end;
-  //   margin-top: 46px;
-  // }
   .company {
     margin-top: 65px;
     width: 150px;
