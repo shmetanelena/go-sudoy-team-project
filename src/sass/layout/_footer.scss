@@ -88,14 +88,21 @@
     color: var(--secondary-text-light-color);
     text-transform: uppercase;
   }
-
-  .networks {
+  .social-networks {
     display: inline-flex;
-    margin-left: 163px;
+    flex-flow: column;
+    // justify-content: flex-end;
+  }
+  .networks {
+    display: flex;
+    justify-content: end;
   }
   .contact-free {
-    display: inline-flex;
+    display: flex;
+    justify-content: end;
+    margin-top: 46px;
   }
+
   .company {
     margin-top: 65px;
     width: 280px;
