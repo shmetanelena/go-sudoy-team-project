@@ -1,0 +1,199 @@
+//********** Footer *************************//
+// .footer {
+//   width: 1200px;
+//   margin: 0 auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   /* outline: 3px solid springgreen; */
+// }
+//********** End Footer *********************//
+//********** Footer__title *********************//
+@media screen and (max-width: 767px) {
+  .footer__title {
+    width: 234px;
+  }
+
+  .title {
+    font-size: 34px;
+    line-height: 1.14;
+    margin-top: 17px;
+    letter-spacing: 0.04em;
+    font-family: 'Titan One', cursive;
+    color: var(--accent-color);
+    text-transform: uppercase;
+  }
+
+  .suptitle {
+    font-size: 18px;
+    line-height: 1.14;
+    margin-top: 117px;
+    font-family: 'Titan One', cursive;
+    color: var(--secondary-text-light-color);
+    text-transform: uppercase;
+  }
+  .networks {
+    display: flex;
+    justify-content: end;
+    margin-top: 46px;
+  }
+  .contact-free {
+    display: flex;
+    justify-content: end;
+    margin-top: 46px;
+  }
+  .company {
+    margin-top: 65px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company__text {
+    font-size: 14px;
+    line-height: 1.52;
+    font-weight: 700;
+    color: #907e82;
+    text-align: center;
+  }
+  .contact-free__text {
+    font-size: 12px;
+    line-height: 1.83;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__title {
+    display: inline-flex;
+    flex-flow: column wrap;
+    width: 340px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 1.14;
+    margin-top: 17px;
+    letter-spacing: 0.06em;
+    font-family: 'Titan One', cursive;
+    color: var(--accent-color);
+    text-transform: uppercase;
+  }
+  .suptitle {
+    font-size: 26px;
+    line-height: 1.14;
+    margin-top: 117px;
+    letter-spacing: 0.04em;
+    font-family: 'Titan One', cursive;
+    color: var(--secondary-text-light-color);
+    text-transform: uppercase;
+  }
+
+  .networks {
+    display: inline-flex;
+    margin-left: 163px;
+  }
+  .contact-free {
+    display: inline-flex;
+  }
+  .company {
+    margin-top: 65px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company__text {
+    font-size: 14px;
+    line-height: 1.52;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #907e82;
+    text-align: center;
+  }
+  .contact-free__text {
+    font-size: 14px;
+    line-height: 1.83;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__title {
+    width: 484px;
+  }
+  .title {
+    font-size: 58px;
+    line-height: 1.14;
+    margin-top: 17px;
+    letter-spacing: 0.06em;
+    font-family: 'Titan One', cursive;
+    color: var(--accent-color);
+    text-transform: uppercase;
+  }
+  .suptitle {
+    font-size: 30px;
+    line-height: 1.14;
+    margin-top: 117px;
+    letter-spacing: 0.04em;
+    font-family: 'Titan One', cursive;
+    color: var(--secondary-text-light-color);
+    text-transform: uppercase;
+  }
+  .networks {
+    display: inline-flex;
+    margin-left: 369px;
+  }
+  .contact-free {
+    display: inline-flex;
+    justify-content: end;
+  }
+  .contact-free__text {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+}
+
+//********** End Footer__title *****************//
+
+//********** Networks ***********************//
+
+.networks__item {
+  margin-left: 30px;
+}
+.networks__link {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  fill: white;
+  background-color: var(--svg-color);
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--svg-hover-color);
+    fill: white;
+  }
+}
+
+.networks__icon {
+  width: 20px;
+  height: 20px;
+  /* margin: 12px; */
+}
+
+//********** END Networks ***********************//
+
+//********** Contact-free ***************************//
+
+.contact-free__text {
+  font-weight: bold;
+  color: var(--main-text-dark-color);
+  //   font-family: 'DM Sans', sans-serif;
+}
+
+.contact-free__tel {
+  color: var(--svg-hover-color);
+}
+//********** END Contact-free ***********************//
