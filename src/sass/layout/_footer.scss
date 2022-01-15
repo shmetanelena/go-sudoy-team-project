@@ -145,7 +145,7 @@
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  fill: white;
+  fill: var(--svg-white-color);
   background-color: var(--svg-color);
   align-items: center;
   justify-content: center;
@@ -155,7 +155,7 @@
   &:hover,
   &:focus {
     background-color: var(--svg-hover-color);
-    fill: white;
+    fill: var(--svg-white-color);
   }
 }
 
