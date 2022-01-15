@@ -113,22 +113,12 @@
     width: 484px;
   }
   .title {
-    font-size: 58px;
-    line-height: 1.14;
     margin-top: 17px;
-    letter-spacing: 0.06em;
-    font-family: 'Titan One', cursive;
-    color: var(--accent-color);
-    text-transform: uppercase;
+    text-align: start;
   }
   .pre-title {
-    font-size: 30px;
-    line-height: 1.14;
     margin-top: 117px;
-    letter-spacing: 0.04em;
-    font-family: 'Titan One', cursive;
-    color: var(--secondary-text-light-color);
-    text-transform: uppercase;
+    text-align: start;
   }
   .social-networks {
     margin-left: 259px;
