@@ -1,6 +1,7 @@
 .contacts {
-  background: linear-gradient(var(--main-text-light-color) 5%, #fff5f6 5% 90%);
+  background: linear-gradient(var(--main-text-light-color) 8%, #fff5f6 8% 90%);
   padding-bottom: 113px;
+  padding-top: 86px;
 }
 .contacts-list {
    margin-bottom: 54px;
@@ -167,8 +168,9 @@
       padding: 50px 30px;
    }
    .contacts {
-      background: linear-gradient(var(--main-text-light-color) 13%, #fff5f6 13% 90%);
+      background: linear-gradient(var(--main-text-light-color) 18%, #fff5f6 18% 90%);
       padding-bottom: 165px;
+      padding-top: 119px;
     }
    .contacts__buts {
       flex-direction: row;
@@ -193,6 +195,8 @@
 @media screen and (min-width: 1280px) {
    .contacts {
       position: relative;
+      padding-top: 132px;
+      background: linear-gradient(var(--main-text-light-color) 20%, #fff5f6 20% 90%);
    }
    .contacts-list {
       margin-left: -15px;
