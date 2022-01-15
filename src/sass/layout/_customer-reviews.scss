@@ -10,7 +10,7 @@
   &__img {
     margin: 0 auto 29px;
     border-radius: 44px;
-    max-width: 85px;
+    width: 85px;
     @media screen and (min-width: 768px) {
       margin: 0 auto 19px;
     }
@@ -62,6 +62,7 @@
     }
   }
   &__subtitle {
+    position: absolute;
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 14px;
@@ -75,6 +76,10 @@
     @media screen and (min-width: 1280px) {
       font-size: 20px;
     }
+  }
+  &__subtitle::before {
+    content: '';
+    position: relative;
   }
   &__nav {
     display: flex;
