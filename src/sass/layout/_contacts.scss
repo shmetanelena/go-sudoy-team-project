@@ -1,6 +1,7 @@
 .contacts {
   background: linear-gradient(var(--main-text-light-color) 5%, #fff5f6 5% 90%);
   padding-bottom: 113px;
+  padding-top: 86px;
 }
 .contacts-list {
    margin-bottom: 54px;
@@ -151,6 +152,9 @@
 }
 
 @media screen and (min-width: 768px) {
+   .contacts {
+      padding-top: 119px;
+   }
    .contacts-list {
       display: flex;
       flex-wrap: wrap;
@@ -193,6 +197,7 @@
 @media screen and (min-width: 1280px) {
    .contacts {
       position: relative;
+      padding-top: 132px;
    }
    .contacts-list {
       margin-left: -15px;
