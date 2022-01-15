@@ -91,7 +91,7 @@
   .social-networks {
     display: inline-flex;
     flex-flow: column;
-    // justify-content: flex-end;
+    margin-left: 91px;
   }
   .networks {
     display: flex;
@@ -146,14 +146,10 @@
     color: var(--secondary-text-light-color);
     text-transform: uppercase;
   }
-  .networks {
-    display: inline-flex;
-    margin-left: 369px;
+  .social-networks {
+    margin-left: 259px;
   }
-  .contact-free {
-    display: inline-flex;
-    justify-content: end;
-  }
+
   .contact-free {
     font-size: 16px;
     line-height: 1.83;
