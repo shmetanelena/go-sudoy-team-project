@@ -93,7 +93,6 @@
   }
   .contact-free {
     display: inline-flex;
-    //  justify-content: flex-end;
   }
   .company {
     margin-top: 65px;
@@ -141,6 +140,10 @@
   .networks {
     display: inline-flex;
     margin-left: 369px;
+  }
+  .contact-free {
+    display: inline-flex;
+    justify-content: end;
   }
   .contact-free__text {
     font-size: 16px;
