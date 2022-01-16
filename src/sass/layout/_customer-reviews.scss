@@ -1,38 +1,134 @@
 .reviews {
   padding-top: 80px;
+  @media screen and (min-width: 768px) {
+    padding-top: 121px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 123px;
+  }
   &__img {
     margin: 0 auto 29px;
     border-radius: 44px;
+    width: 85px;
+    @media screen and (min-width: 768px) {
+      margin: 0 auto 19px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin: 0 auto 15px;
+    }
   }
   &__wrap {
     background-color: #fafafa;
-  }
-  &__text {
-    margin: 0 0 52px 0;
-    padding: 43px 62px 26px;
-    font-size: 12px;
-    line-height: 255%;
-    text-align: center;
-    color: #000000;
-  }
-  &__subtitle {
-    margin-bottom: 30px;
-    font-size: 14px;
-    line-height: 186%;
-    text-align: center;
-  }
-  &__nav {
     display: flex;
     justify-content: center;
+    padding: 43px 0 26px;
+    margin: 0 auto 52px;
+    @media screen and (min-width: 768px) {
+      margin: 0 auto 42px;
+      padding: 47px 0 34px;
+      width: 620px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin: 0 auto 34px;
+      padding: 47px 0 39px;
+      width: 926px;
+    }
   }
-  &__nav-item {
+  &__text {
+    position: relative;
+    z-index: 4;
+    width: 60%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2.55;
+    letter-spacing: 0.04em;
+    color: var(--main-text-dark-color);
+    background-image: repeating-linear-gradient(
+      hsla(0, 0%, 100%, 0),
+      hsla(0, 0%, 100%, 0) 29px,
+      #e1e1e1 0,
+      #e1e1e1 30px
+    );
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 2.16;
+      width: 460px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 16px;
+      line-height: 1.86;
+      width: 750px;
+    }
+  }
+  &__text::before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: -1000;
+    top: -20px;
+    left: -19px;
+    background-image: url('/images/customer-revievers-decoration.png');
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 40px;
+
+    @media screen and (min-width: 768px) {
+      left: -35px;
+    }
+    @media screen and (min-width: 1280px) {
+      left: -30px;
+    }
+  }
+  &__subtitle {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: center;
+    color: var(--main-text-dark-color);
+    @media screen and (min-width: 768px) {
+      margin-bottom: 35px;
+      font-size: 16px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 20px;
+    }
+  }
+  &__subtitle::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -18px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-image: url('/images/customer-revievers-decoration-dots.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 4px;
+  }
+}
+.reviews-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item:not(:last-child) {
+    margin-right: 18px;
+  }
+  &__btn {
     width: 12px;
     height: 12px;
     background-color: #d9d9d9;
     border-radius: 50%;
   }
-  &__nav-item:not(:last-child) {
-    margin-right: 18px;
+  &__btn--active {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
   }
 }
 
