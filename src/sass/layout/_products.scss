@@ -79,16 +79,16 @@
   &::before {
     content: ' ';
     position: absolute;
-    top: 0;
+    top: -113px;
     left: 50%;
-
-    transform: translate(-50%, -45%);
-    background-image: url('/images/products/ice-cream-mob.png');
-    background-color: transparent;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 249px;
     height: 252px;
+    transform: translate(-50%, 0);
+
+    background-image: url('/images/products/ice-cream-mob.png');
+    background-color: transparent;
+    background-size: 249px 252px;
+    background-repeat: no-repeat;
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -99,9 +99,11 @@
     }
 
     @media screen and (min-width: 768px) {
+      top: -105px;
       width: 220px;
-      height: 224px;
+      height: 226px;
       background-image: url('/images/products/ice-cream-tab.png');
+      background-size: 220px 226px;
 
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
@@ -112,10 +114,11 @@
       }
     }
     @media screen and (min-width: 1280px) {
-      transform: translate(-50%, -63%);
+      top: -210px;
       width: 335px;
       height: 335px;
       background-image: url('/images/products/ice-cream-desk.png');
+      background-size: 335px 335px;
 
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
@@ -127,13 +130,15 @@
     }
   }
   &::after {
-    content: '...';
+    content: ' ';
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 26px;
     height: 6px;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
+    background-image: url('/images/products/ellipsis.png');
   }
 }
 .products-list__title--coffee-png::before {
@@ -147,8 +152,11 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    top: -110px;
     background-image: url('/images/products/ice-coffee-tab.png');
+    height: 233px;
+    background-size: 220px 233px;
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
