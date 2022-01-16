@@ -1,0 +1,53 @@
+.btn {
+  min-width: 160px;
+  padding: 0px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  min-height: 44px;
+  transition: background 250ms var(--transition);
+  &:after {
+    content: '';
+    display: block;
+    width: 6px;
+    min-width: 6px;
+    margin-left: 12px;
+    height: 8px;
+    fill: currentColor;
+  }
+  @media (min-width: 768px) {
+    min-width: 175px;
+  }
+  @media screen and (min-width: 1280px) {
+    min-width: 180px;
+  }
+  &-main {
+    background: var(--btn-acent-color);
+    color: var(--main-text-light-color);
+    &:after {
+      background-image: url('../images/btn-main-arrow.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:hover,
+    &:focus {
+      background: var(--btn-acent-hover);
+    }
+  }
+  &-sub {
+    background: var(--main-text-light-color);
+    color: var(--btn-acent-color);
+    &:after {
+      background-image: url('../images/btn-sub-arrow.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:hover,
+    &:focus {
+      background: var(--btn-light-hover);
+    }
+  }
+}
