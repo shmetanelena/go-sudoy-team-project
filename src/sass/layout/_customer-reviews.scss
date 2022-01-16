@@ -112,14 +112,23 @@
 .reviews-pagination {
   display: flex;
   justify-content: center;
-  &__item:not(:first-child) {
+  align-items: center;
+
+  &__item:not(:last-child) {
+    margin-right: 18px;
+  }
+  &__btn {
     width: 12px;
     height: 12px;
     background-color: #d9d9d9;
     border-radius: 50%;
   }
-  &__item:not(:last-child) {
-    margin-right: 18px;
+  &__btn--active {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
   }
 }
 
