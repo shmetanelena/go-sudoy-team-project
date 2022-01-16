@@ -1,0 +1,9 @@
+.gallery {
+  padding-top: 97px;
+  @media screen and (min-width: 768px) {
+    padding-top: 140px;
+  }
+  &__img {
+    width: 100%;
+  }
+}
