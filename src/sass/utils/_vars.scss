@@ -4,11 +4,14 @@
 
 :root {
   // ======= FOR FONTS ===============
+
   --main-text-light-color: #ffffff;
   --secondary-text-light-color: #ffa5ba;
   --main-text-dark-color: #000000;
   --secondary-text-dark-color: #907e82;
   --accent-color: #d41443;
+  --usual-text-color: #000000;
+  --usual-text-light-color: #907e82;
 
   // ======FOR BUTTONS =============
   --btn-acent-color: #d41443;
@@ -20,6 +23,8 @@
   --bg-hero-color: #ffb8ca;
   --bg-light-color: #e5e5e5;
   --bg-light-pink-color: #fff5f6;
+  --bg-text-customer-color: #fafafa;
+  --bg-mob-menu-color: #e17992;
 
   --add-color-first: #f0d1a5;
   --add-color-second: #c2e297;
@@ -27,6 +32,7 @@
   // ====+ SVG ============
   --svg-color: #fea5bb;
   --svg-hover-color: #d41443;
+  --svg-white-color: #ffffff;
 
   // ========TRANSITION ===========
   --transition: cubic-bezier(0.4, 0, 0.2, 1);
