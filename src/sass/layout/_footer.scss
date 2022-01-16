@@ -4,14 +4,16 @@
 }
 
 //********** End Footer *********************//
-//********** Footer__title *********************//
+
+//**********  Media 480 *****************//
 @media screen and (max-width: 767px) {
   .footer {
     padding-top: 117px;
+    &__title {
+      width: 234px;
+    }
   }
-  .footer__title {
-    width: 234px;
-  }
+
   .title__indent {
     margin-top: 17px;
     font-size: 34px;
@@ -28,46 +30,46 @@
   .networks {
     display: flex;
     justify-content: end;
-  }
 
-  .networks__item:not(:first-child) {
-    margin-left: 30px;
+    &__item:not(:first-child) {
+      margin-left: 30px;
+    }
   }
 
   .contact-free {
     display: flex;
     justify-content: end;
     margin-top: 46px;
+    font-size: 12px;
+    line-height: 1.83;
   }
   .company {
     margin-top: 65px;
     width: 150px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .company__text {
-    font-size: 14px;
-    line-height: 1.52;
-    font-weight: 700;
-    color: #907e82;
-    text-align: center;
-  }
-  .contact-free {
-    font-size: 12px;
-    line-height: 1.83;
+    &__text {
+      font-size: 14px;
+      line-height: 1.52;
+      font-weight: 700;
+      color: #907e82;
+      text-align: center;
+    }
   }
 }
+//********** End Media 480 *****************//
 
+//**********  Media 768 *****************//
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 117px;
+    &__title {
+      display: inline-flex;
+      flex-flow: column wrap;
+      width: 340px;
+    }
   }
-  .footer__title {
-    display: inline-flex;
-    flex-flow: column wrap;
-    width: 340px;
-  }
+
   .title__indent {
     margin-top: 17px;
     letter-spacing: 0.06em;
@@ -86,16 +88,17 @@
   .networks {
     display: flex;
     justify-content: end;
-  }
-
-  .networks__item:not(:first-child) {
-    margin-left: 30px;
+    &__item:not(:first-child) {
+      margin-left: 30px;
+    }
   }
 
   .contact-free {
     display: flex;
     justify-content: end;
     margin-top: 46px;
+    font-size: 14px;
+    line-height: 1.83;
   }
 
   .company {
@@ -103,30 +106,27 @@
     width: 280px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .company__text {
-    font-size: 14px;
-    line-height: 1.52;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: #907e82;
-    text-align: center;
-  }
-  .contact-free {
-    font-size: 14px;
-    line-height: 1.83;
+    &__text {
+      font-size: 14px;
+      line-height: 1.52;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #907e82;
+      text-align: center;
+    }
   }
 }
+//********** End Media 768 *****************//
+//********** Media 1280 *****************//
 
 @media screen and (min-width: 1280px) {
   .footer {
     padding-top: 117px;
+    &__title {
+      width: 484px;
+    }
   }
 
-  .footer__title {
-    width: 484px;
-  }
   .title__indent {
     margin-top: 17px;
     text-align: start;
@@ -151,13 +151,9 @@
   }
 }
 
-//********** End Footer__title *****************//
+//********** End Media 1280 *****************//
 
 //********** Networks ***********************//
-
-// .networks__item:not(:first-child) {
-//   margin-left: 30px;
-// }
 
 .networks__link {
   display: flex;
@@ -181,7 +177,6 @@
 .networks__icon {
   width: 20px;
   height: 20px;
-  /* margin: 12px; */
 }
 
 //********** END Networks ***********************//
@@ -191,7 +186,7 @@
 .contact-free {
   font-weight: bold;
   color: var(--main-text-dark-color);
-  //   font-family: 'DM Sans', sans-serif;
+
   &__tel {
     color: var(--svg-hover-color);
   }
