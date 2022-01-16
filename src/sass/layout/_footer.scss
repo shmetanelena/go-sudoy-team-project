@@ -192,9 +192,9 @@
   font-weight: bold;
   color: var(--main-text-dark-color);
   //   font-family: 'DM Sans', sans-serif;
+  &__tel {
+    color: var(--svg-hover-color);
+  }
 }
 
-.contact-free__tel {
-  color: var(--svg-hover-color);
-}
 //********** END Contact-free ***********************//
