@@ -7,6 +7,12 @@
 .footer {
   border-bottom: 2px solid #e1e1e1;
 }
+
+.title__footer,
+.pre-title__footer {
+  text-align: start;
+}
+
 //********** End Footer *********************//
 
 //**********  Media 480 *****************//
@@ -18,16 +24,6 @@
     }
   }
 
-  .title__indent {
-    margin-top: 17px;
-    font-size: 34px;
-    letter-spacing: 0.04em;
-    text-align: start;
-  }
-
-  .pre-title__indent {
-    text-align: start;
-  }
   .social-networks {
     margin-top: 46px;
     padding-bottom: 43px;
@@ -75,16 +71,6 @@
       width: 340px;
       padding-bottom: 91px;
     }
-  }
-
-  .title__indent {
-    margin-top: 17px;
-    letter-spacing: 0.06em;
-    text-align: start;
-  }
-
-  .pre-title__indent {
-    text-align: start;
   }
 
   .social-networks {
@@ -136,15 +122,8 @@
     }
   }
 
-  .title__indent {
-    margin-top: 17px;
-    text-align: start;
-  }
   .networks__item:not(:first-child) {
     margin-left: 25px;
-  }
-  .pre-title__indent {
-    text-align: start;
   }
 
   .social-networks {
