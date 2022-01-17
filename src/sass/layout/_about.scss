@@ -5,21 +5,21 @@
     background-position: 100% 90%;
     background-size: 100%, 100%;
     @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      background-image: url(../images/about/milkbg-mobile@2x.png);
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url(../images/about/milkbg-mobile@2x.png);
     }
-  }
-  @media screen and (min-width: 1200px) {
+}
+    @media screen and (min-width: 1200px) {
     background-image: url(../images/about/milkbg-desktop.png);
     background-position: bottom;
     background-size: 100%, 100%;
     @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      background-image: url(../images/about/milkbg-desktop@2x.png);
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url(../images/about/milkbg-desktop@2x.png);
+        }
     }
-  }
   background-color: var(--bg-light-pink-color);
   padding-top: 125px;
   padding-bottom: 39px;
@@ -35,45 +35,45 @@
 
     &__label {
       font-family: "Titan One";
-      @include font(400, 18px, 20px);
+      @include font(400, 18px, 1.11);
       text-align: center;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: var(--bg-hero-color);
       margin-bottom: 15px;
       @media screen and (min-width: 768px) {
-        @include font(400, 26px, 30px);
+        @include font(400, 26px, 1.15);
       }
       @media screen and (min-width: 1200px) {
-        @include font(400, 30px, 34px);
+        @include font(400, 30px, 1.13);
       }
     }
 
     &__headline {
       font-family: 'Titan One';
-      @include font(400, 34px, 39px);
+      @include font(400, 34px, 1.15);
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
       color: var(--accent-color);
 
       @media screen and (min-width: 768px) {
-        @include font(400, 48px, 55px);
+        @include font(400, 48px, 1.15);
       }
       @media screen and (min-width: 1200px) {
-        @include font(400, 58px, 66px);
+        @include font(400, 58px, 1.14);
       }
     }
   }
 
   &-description {
-    @include font(500, 12px, 19px);
+    @include font(500, 12px, 1.58);
     display: flex;
     flex-direction: column;
     align-items: center;
 
     @media screen and (min-width: 768px) {
-      @include font(500, 14px, 25px);
+      @include font(500, 14px, 1.79);
       letter-spacing: 0.04em;
       flex-direction: row;
       align-items: flex-start;
@@ -113,14 +113,15 @@
       margin-bottom: 25px;
       color: var(--main-text-dark-color);
 
-      @media screen and (min-width: 768px) {
-        margin-bottom: 30px;
-        width: 340px;
-      }
-      @media screen and (min-width: 1200px) {
-        @include font(500, 15px, 28px);
-        width: 455px;
-      }
+        @media screen and (min-width: 768px) {
+            @include font(500, 14px, 1.76);
+            margin-bottom: 30px;
+            width: 340px;
+        }
+        @media screen and (min-width: 1200px) {
+            @include font(500, 16px, 1.76);
+            width: 455px;
+        }
     }
 
     &__text {
@@ -128,18 +129,19 @@
       color: var(--secondary-text-dark-color);
 
       @media screen and (min-width: 768px) {
+        @include font(500, 14px, 1.76);
         margin-bottom: 62px;
         width: 340px;
       }
       @media screen and (min-width: 1200px) {
-        @include font(500, 13px, 27px);
+        @include font(500, 14px, 1.92);
         margin-bottom: 40px;
         width: 455px;
       }
     }
 
     &__btn {
-      @include font(700, 14px, 21px);
+      @include font(700, 14px, 1.5);
       vertical-align: sub;
       @media screen and (min-width: 768px) {
         padding: 12px 31px;
