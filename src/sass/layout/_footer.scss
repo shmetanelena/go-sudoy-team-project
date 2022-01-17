@@ -1,8 +1,12 @@
 //********** Footer *************************//
-.footer {
+
+.footer,
+.copyright {
   background-color: var(--bg-light-pink-color);
 }
-
+.footer {
+  border-bottom: 2px solid #e1e1e1;
+}
 //********** End Footer *********************//
 
 //**********  Media 480 *****************//
@@ -26,6 +30,7 @@
   }
   .social-networks {
     margin-top: 46px;
+    padding-bottom: 43px;
   }
   .networks {
     display: flex;
@@ -43,8 +48,8 @@
     font-size: 12px;
     line-height: 1.83;
   }
-  .company {
-    margin-top: 65px;
+  .copyright-box {
+    padding-top: 22px;
     padding-bottom: 25px;
     width: 150px;
     margin-left: auto;
@@ -68,6 +73,7 @@
       display: inline-flex;
       flex-flow: column wrap;
       width: 340px;
+      padding-bottom: 91px;
     }
   }
 
@@ -102,8 +108,8 @@
     line-height: 1.83;
   }
 
-  .company {
-    margin-top: 120px;
+  .copyright-box {
+    padding-top: 29px;
     padding-bottom: 18px;
     width: 280px;
     margin-left: auto;
@@ -126,6 +132,7 @@
     padding-top: 117px;
     &__title {
       width: 484px;
+      padding-bottom: 97px;
     }
   }
 
@@ -148,8 +155,8 @@
     font-size: 16px;
     line-height: 1.83;
   }
-  .company {
-    margin-top: 106px;
+  .copyright-box {
+    padding-top: 10px;
     padding-bottom: 10px;
   }
 }
