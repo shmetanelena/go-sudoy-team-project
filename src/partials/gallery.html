@@ -1,0 +1,22 @@
+<section class="gallery">
+  <div class="container">
+    <h2 class="gallery__title is-hidden">Gallery</h2>
+    <div class="gallery__wrap">
+      <picture>
+        <source
+          srcset="./images/gallery.jpg 1x, ./images/gallery@2x.jpg 2x"
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="./images/gallery-laptop.jpg 1x, ./images/gallery-laptop@2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./images/gallery-mob.jpg 1x, ./images/gallery-mob@2x.jpg 2x"
+          media="(min-width: 320px)"
+        />
+        <img class="gallery__img" src="./images/gallery-mob.jpg" alt="Gallery" />
+      </picture>
+    </div>
+  </div>
+</section>
