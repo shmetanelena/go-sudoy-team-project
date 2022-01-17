@@ -1,0 +1,67 @@
+<header class="head">
+  <div class="container head__container">
+    <nav class="navigation">
+      <a class="logo">
+        <img
+          srcset="./images/logo.png 1x, ./images/logo@2.png 2x"
+          src="./images/logo.png"
+          alt="Home page"
+        />
+      </a>
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="#" class="menu__link current">Home</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">About us</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">How it&#8217;s made?</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Our products</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Contact</a>
+        </li>
+      </ul>
+      <div class="btn-block">
+        <button
+          class="btn-block__button-nav button-nav js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="button-nav__burger-img">
+            <use href="./images/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <button class="btn btn-sub btn-block__button">Buy now</button>
+      </div>
+      <div class="mobile-block js-menu-container" id="mobile-menu">
+        <button class="mobile-block__button-nav button-nav js-close-menu">
+          <svg class="button-nav__close-img">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <button class="btn btn-sub mobile-block__btn">Buy now</button>
+        <ul class="mobile-menu">
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link current">Home</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">About us</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">How it&#8217;s made?</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">Our products</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
