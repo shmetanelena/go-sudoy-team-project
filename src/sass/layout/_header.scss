@@ -1,11 +1,9 @@
 .head {
   background-color: var(--bg-hero-color);
 }
-
 .head__container {
   position: relative;
 }
-
 .navigation {
   position: absolute;
   top: 0;
@@ -15,22 +13,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 
   @media screen and (min-width: 768px) {
     padding-top: 37px;
-    z-index: 1;
   }
 
   @media screen and (min-width: 1280px) {
     width: 1150px;
   }
 }
-
 .logo {
   width: 199px;
   height: 50px;
 }
-
 .menu {
   display: none;
 
@@ -40,7 +36,6 @@
     align-items: center;
   }
 }
-
 .menu__item {
   @media screen and (min-width: 1280px) {
     margin-right: 35px;
@@ -50,14 +45,12 @@
     }
   }
 }
-
 .menu__link {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.3;
   color: var(--main-text-light-color);
 }
-
 .mobile-block {
   position: fixed;
   top: 0;
@@ -82,7 +75,6 @@
     display: none;
   }
 }
-
 .button-nav {
   background-color: transparent;
   padding: 0;
@@ -92,59 +84,24 @@
     display: none;
   }
 }
-
 .mobile-block__button-nav {
   position: absolute;
   top: 23px;
   right: 24px;
 }
-
 .button-nav__burger-img {
   width: 20px;
   height: 12px;
   stroke: var(--btn-acent-color);
 }
-
 .button-nav__close-img {
   width: 14px;
   height: 14px;
   stroke: var(--btn-light-color);
 }
-
-.btn {
-  min-width: 160px;
-  padding: 0px 17px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 22px;
-  min-height: 44px;
-  transition: background 250ms var(--transition);
-  background: var(--main-text-light-color);
-  color: var(--btn-acent-color);
-
-  &:hover,
-  &:focus {
-    background: var(--btn-light-hover);
-  }
-  &:after {
-    content: '';
-    display: block;
-    width: 6px;
-    min-width: 6px;
-    margin-left: 12px;
-    height: 8px;
-    color: var(--main-text-light-color);
-
-    background-image: url('../images/hero-img/vector.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-}
-
 .btn-block__button {
   display: none;
+  min-width: 160px;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -155,30 +112,25 @@
     margin-right: 30px;
   }
 }
-
 .btn-block {
   @media screen and (min-width: 768px) {
     display: flex;
   }
 }
-
 .mobile-block__btn {
   padding: 0px 60px;
   margin: 0 auto 19px auto;
 }
-
 .mobile-menu__item {
   border: 1px solid #e18298;
   padding: 10px 21px;
 }
-
 .mobile-menu__link {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.29;
   color: var(--main-text-light-color);
 }
-
 .current {
   color: var(--accent-color);
 }
