@@ -254,11 +254,15 @@
 
   margin-left: auto;
   margin-right: auto;
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-light-hover);
+  }
 }
 .products-list__icon {
   fill: currentColor;
 }
-
 .modal {
   position: absolute;
   top: 145px;
