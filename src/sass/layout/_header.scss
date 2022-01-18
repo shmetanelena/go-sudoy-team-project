@@ -50,6 +50,12 @@
   font-size: 16px;
   line-height: 1.3;
   color: var(--main-text-light-color);
+  transition: color 250ms var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .mobile-block {
   position: fixed;
@@ -62,7 +68,7 @@
   background-color: var(--bg-mob-menu-color);
   padding-top: 60px;
   filter: drop-shadow(-8px 0px 20px rgba(0, 0, 0, 0.25));
-
+  transition: transform 250ms var(--transition);
   &.is-open {
     transform: translateX(0);
   }
@@ -130,6 +136,12 @@
   font-size: 14px;
   line-height: 1.29;
   color: var(--main-text-light-color);
+  transition: color 250ms var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .current {
   color: var(--accent-color);
