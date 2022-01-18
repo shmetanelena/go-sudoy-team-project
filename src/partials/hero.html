@@ -1,1 +1,80 @@
+<section class="hero">
+  <div class="hero__container container">
+    <div class="hero__circle"></div>
+    <picture>
+      <source
+        srcset="./images/ice-creem.png 1x, ./images/ice-creem@2x.png 2x"
+        media="(min-width: 1280px)"
+      />
 
+      <source
+        srcset="./images/ice-creem-tab.png 1x, ./images/ice-creem-tab@2x.png 2x"
+        media="(min-width: 768px)"
+      />
+
+      <source
+        srcset="./images/ice-creem-mob.png 1x, ./images/ice-creem-mob@2x.png 2x"
+        media="(max-width: 767px)"
+      />
+
+      <img class="hero__main-img" src="./images/ice-creem.png" alt="Ice Cream" />
+    </picture>
+    <div class="hero__title-block">
+      <p class="hero__pre-title">ice cream made with</p>
+      <h1 class="hero__title">passion</h1>
+      <div class="hero__btn-block">
+        <button class="btn btn-main hero__btn">Products</button>
+        <button class="btn btn-sub hero__btn">How it&#8217;s made?</button>
+      </div>
+    </div>
+    <div class="hero__about-block about-block">
+      <picture>
+        <source
+          srcset="./images/milk.png 1x, ./images/milk@2x.png 2x"
+          media="(min-width: 1280px)"
+        />
+
+        <source
+          srcset="./images/milk-tab.png 1x, ./images/milk-tab@2x.png 2x"
+          media="(min-width: 768px)"
+        />
+
+        <img src="./images/milk.png" alt="Milk" class="about-block__img" />
+      </picture>
+      <div>
+        <p class="about-block__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+        </p>
+        <button class="about-block__btn">
+          <svg class="about-block__arrow-right">
+            <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <ul class="hero__list statistics">
+      <li class="statistics__item">
+        <p class="statistics__text">16</p>
+        <p class="statistics__second-text">cafes</p>
+      </li>
+      <li class="statistics__item">
+        <p class="statistics__text">23</p>
+        <p class="statistics__second-text">food trucks</p>
+      </li>
+    </ul>
+    <picture>
+      <source
+        srcset="./images/licking-girl.png 1x, ./images/licking-girl@2x.png 2x"
+        media="(min-width: 1280px)"
+      />
+
+      <source
+        srcset="./images/licking-girl-tab.png 1x, ./images/licking-girl-tab@2x.png 2x"
+        media="(min-width: 768px)"
+      />
+
+      <img src="./images/licking-girl.png" alt="Licking girl" class="hero__second-img" />
+    </picture>
+  </div>
+</section>
