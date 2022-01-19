@@ -65,11 +65,11 @@
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 117px;
+    padding-bottom: 91px;
     &__title {
       display: inline-flex;
       flex-flow: column wrap;
       width: 340px;
-      padding-bottom: 91px;
     }
   }
 
@@ -116,9 +116,9 @@
 @media screen and (min-width: 1280px) {
   .footer {
     padding-top: 117px;
+    padding-bottom: 97px;
     &__title {
       width: 484px;
-      padding-bottom: 97px;
     }
   }
 
