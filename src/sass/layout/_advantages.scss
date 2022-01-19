@@ -43,9 +43,6 @@
 }
 
 .advantages__box {
-  position: relative;
-  padding-top: 66px;
-
   margin-bottom: 38px;
   &:last-child {
     margin-bottom: 0px;
@@ -63,14 +60,12 @@
     &:last-child {
       margin-right: 0px;
     }
-    padding-top: 86px;
     margin-bottom: 0px;
   }
 
   @media screen and(min-width:1280px) {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
-    padding-top: 90px;
   }
 }
 
@@ -102,64 +97,82 @@
 }
 
 .first::before {
+  display: block;
   content: ' ';
   width: 33px;
   height: 50px;
   background-image: url('../images/advantages-1.png');
   background-size: contain;
-
-  position: absolute;
-  left: 0;
-  top: 0;
+  margin-bottom: 16px;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url('../images/advantages-1@2x.png');
   }
 
   @media screen and(min-width:480px) {
-    left: 50%;
-    transform: translate(-50%);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media screen and(min-width:768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and(min-width:1280px) {
+    margin-bottom: 40px;
   }
 }
 
 .second::before {
+  display: block;
   content: ' ';
   width: 50px;
   height: 50px;
   background-image: url('../images/advantages-2.png');
   background-size: contain;
-
-  position: absolute;
-  left: 0;
-  top: 0;
+  margin-bottom: 16px;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url('../images/advantages-2@2x.png');
   }
 
   @media screen and(min-width:480px) {
-    left: 50%;
-    transform: translate(-50%);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media screen and(min-width:768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and(min-width:1280px) {
+    margin-bottom: 40px;
   }
 }
 
 .third::before {
+  display: block;
   content: ' ';
   width: 44px;
   height: 50px;
   background-image: url('../images/advantages-3.png');
   background-size: contain;
-
-  position: absolute;
-  left: 0;
-  top: 0;
+  margin-bottom: 16px;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url('../images/advantages-3@2x.png');
   }
 
   @media screen and(min-width:480px) {
-    left: 50%;
-    transform: translate(-50%);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media screen and(min-width:768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and(min-width:1280px) {
+    margin-bottom: 40px;
   }
 }
