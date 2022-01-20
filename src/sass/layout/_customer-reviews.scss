@@ -36,7 +36,7 @@
   }
   &__text {
     position: relative;
-    z-index: 4;
+    z-index: 1;
     width: 60%;
     text-align: center;
     font-size: 12px;
@@ -112,14 +112,23 @@
 .reviews-pagination {
   display: flex;
   justify-content: center;
-  &__item:not(:first-child) {
-    width: 12px;
-    height: 12px;
-    background-color: #d9d9d9;
-    border-radius: 50%;
+  align-items: center;
+  &__item {
+    display: flex;
+    align-items: center;
   }
   &__item:not(:last-child) {
     margin-right: 18px;
+  }
+  &__btn {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+  }
+  &__btn--active {
+    background-color: transparent;
   }
 }
 

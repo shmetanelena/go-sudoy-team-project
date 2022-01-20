@@ -1,177 +1,155 @@
 //********** Footer *************************//
-// .footer {
-//   width: 1200px;
-//   margin: 0 auto;
-//   padding-left: 15px;
-//   padding-right: 15px;
-//   /* outline: 3px solid springgreen; */
-// }
+
+.footer,
+.copyright {
+  background-color: var(--bg-light-pink-color);
+}
+.footer {
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.title__footer,
+.pre-title__footer {
+  text-align: start;
+}
+
 //********** End Footer *********************//
-//********** Footer__title *********************//
+
+//**********  Media 480 *****************//
 @media screen and (max-width: 767px) {
-  .footer__title {
-    width: 234px;
+  .footer {
+    padding-top: 117px;
+    &__title {
+      width: 234px;
+    }
   }
 
-  .title {
-    font-size: 34px;
-    line-height: 1.14;
-    margin-top: 17px;
-    letter-spacing: 0.04em;
-    font-family: 'Titan One', cursive;
-    color: var(--accent-color);
-    text-transform: uppercase;
-  }
-
-  .suptitle {
-    font-size: 18px;
-    line-height: 1.14;
-    margin-top: 117px;
-    font-family: 'Titan One', cursive;
-    color: var(--secondary-text-light-color);
-    text-transform: uppercase;
-  }
   .social-networks {
     margin-top: 46px;
+    padding-bottom: 43px;
   }
   .networks {
     display: flex;
     justify-content: end;
+
+    &__item:not(:first-child) {
+      margin-left: 30px;
+    }
   }
+
   .contact-free {
     display: flex;
     justify-content: end;
     margin-top: 46px;
-  }
-  .company {
-    margin-top: 65px;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .company__text {
-    font-size: 14px;
-    line-height: 1.52;
-    font-weight: 700;
-    color: #907e82;
-    text-align: center;
-  }
-  .contact-free {
     font-size: 12px;
     line-height: 1.83;
   }
+  .copyright-box {
+    padding-top: 22px;
+    padding-bottom: 25px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    &__text {
+      font-size: 14px;
+      line-height: 1.52;
+      font-weight: 700;
+      color: #907e82;
+      text-align: center;
+    }
+  }
 }
+//********** End Media 480 *****************//
 
+//**********  Media 768 *****************//
 @media screen and (min-width: 768px) {
-  .footer__title {
-    display: inline-flex;
-    flex-flow: column wrap;
-    width: 340px;
+  .footer {
+    padding-top: 117px;
+    padding-bottom: 91px;
+    &__title {
+      display: inline-flex;
+      flex-flow: column wrap;
+      width: 340px;
+    }
   }
 
-  .title {
-    font-size: 48px;
-    line-height: 1.14;
-    margin-top: 17px;
-    letter-spacing: 0.06em;
-    font-family: 'Titan One', cursive;
-    color: var(--accent-color);
-    text-transform: uppercase;
-  }
-  .suptitle {
-    font-size: 26px;
-    line-height: 1.14;
-    margin-top: 117px;
-    letter-spacing: 0.04em;
-    font-family: 'Titan One', cursive;
-    color: var(--secondary-text-light-color);
-    text-transform: uppercase;
-  }
   .social-networks {
     display: inline-flex;
     flex-flow: column;
-    margin-left: 91px;
+    margin-left: 80px;
   }
   .networks {
     display: flex;
     justify-content: end;
+    &__item:not(:first-child) {
+      margin-left: 30px;
+    }
   }
+
   .contact-free {
     display: flex;
     justify-content: end;
     margin-top: 46px;
-  }
-
-  .company {
-    margin-top: 120px;
-    width: 280px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .company__text {
-    font-size: 14px;
-    line-height: 1.52;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: #907e82;
-    text-align: center;
-  }
-  .contact-free {
     font-size: 14px;
     line-height: 1.83;
   }
+
+  .copyright-box {
+    padding-top: 29px;
+    padding-bottom: 18px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    &__text {
+      font-size: 14px;
+      line-height: 1.52;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #907e82;
+      text-align: center;
+    }
+  }
 }
+//********** End Media 768 *****************//
+//********** Media 1280 *****************//
 
 @media screen and (min-width: 1280px) {
-  .footer__title {
-    width: 484px;
+  .footer {
+    padding-top: 117px;
+    padding-bottom: 97px;
+    &__title {
+      width: 484px;
+    }
   }
-  .title {
-    font-size: 58px;
-    line-height: 1.14;
-    margin-top: 17px;
-    letter-spacing: 0.06em;
-    font-family: 'Titan One', cursive;
-    color: var(--accent-color);
-    text-transform: uppercase;
+
+  .networks__item:not(:first-child) {
+    margin-left: 25px;
   }
-  .suptitle {
-    font-size: 30px;
-    line-height: 1.14;
-    margin-top: 117px;
-    letter-spacing: 0.04em;
-    font-family: 'Titan One', cursive;
-    color: var(--secondary-text-light-color);
-    text-transform: uppercase;
-  }
+
   .social-networks {
-    margin-left: 259px;
+    margin-left: 250px;
   }
 
   .contact-free {
     font-size: 16px;
     line-height: 1.83;
   }
-  .company {
-    margin-top: 106px;
+  .copyright-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
-//********** End Footer__title *****************//
+//********** End Media 1280 *****************//
 
 //********** Networks ***********************//
 
-.networks__item {
-  margin-left: 30px;
-}
 .networks__link {
   display: flex;
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  fill: white;
+  fill: var(--svg-white-color);
   background-color: var(--svg-color);
   align-items: center;
   justify-content: center;
@@ -181,14 +159,13 @@
   &:hover,
   &:focus {
     background-color: var(--svg-hover-color);
-    fill: white;
+    fill: var(--svg-white-color);
   }
 }
 
 .networks__icon {
   width: 20px;
   height: 20px;
-  /* margin: 12px; */
 }
 
 //********** END Networks ***********************//
@@ -198,10 +175,10 @@
 .contact-free {
   font-weight: bold;
   color: var(--main-text-dark-color);
-  //   font-family: 'DM Sans', sans-serif;
+
+  &__tel {
+    color: var(--svg-hover-color);
+  }
 }
 
-.contact-free__tel {
-  color: var(--svg-hover-color);
-}
 //********** END Contact-free ***********************//
