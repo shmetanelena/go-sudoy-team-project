@@ -271,3 +271,7 @@
     right: 9px;
   }
 }
+.animate__fadeInRight,
+.animate__fadeInLeft {
+  animation-delay: 0.5s;
+}
