@@ -1,7 +1,7 @@
 <section class="hero">
   <div class="hero__container container">
-    <div class="hero__circle"></div>
-    <picture>
+    <div class="hero__circle animate__animated animate__flip"></div>
+    <picture class="animate__animated animate__flip">
       <source
         srcset="./images/ice-creem.png 1x, ./images/ice-creem@2x.png 2x"
         media="(min-width: 1280px)"
@@ -17,9 +17,13 @@
         media="(max-width: 767px)"
       />
 
-      <img class="hero__main-img" src="./images/ice-creem.png" alt="Ice Cream" />
+      <img
+        class="hero__main-img animate__animated animate__flipInY"
+        src="./images/ice-creem.png"
+        alt="Ice Cream"
+      />
     </picture>
-    <div class="hero__title-block">
+    <div class="hero__title-block animate__animated animate__bounceInLeft">
       <p class="hero__pre-title">ice cream made with</p>
       <h1 class="hero__title">passion</h1>
       <div class="hero__btn-block">
@@ -39,7 +43,11 @@
           media="(min-width: 768px)"
         />
 
-        <img src="./images/milk.png" alt="Milk" class="about-block__img" />
+        <img
+          src="./images/milk.png"
+          alt="Milk"
+          class="about-block__img animate__animated animate__fadeInLeft"
+        />
       </picture>
       <div>
         <p class="about-block__text">
@@ -54,11 +62,11 @@
       </div>
     </div>
     <ul class="hero__list statistics">
-      <li class="statistics__item">
+      <li class="statistics__item animate__animated animate__bounceInRight">
         <p class="statistics__text">16</p>
         <p class="statistics__second-text">cafes</p>
       </li>
-      <li class="statistics__item">
+      <li class="statistics__item animate__animated animate__bounceInRight">
         <p class="statistics__text">23</p>
         <p class="statistics__second-text">food trucks</p>
       </li>
@@ -74,7 +82,11 @@
         media="(min-width: 768px)"
       />
 
-      <img src="./images/licking-girl.png" alt="Licking girl" class="hero__second-img" />
+      <img
+        src="./images/licking-girl.png"
+        alt="Licking girl"
+        class="hero__second-img animate__animated animate__fadeInRight"
+      />
     </picture>
   </div>
 </section>
